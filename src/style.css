@@ -1,3 +1,10 @@
+body {
+  background-image: url("../media/background-shadow.jpg");
+  background-size: 100%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
 h1 {
   color: #4f514a;
   font-size: 48px;
@@ -8,26 +15,69 @@ h1 {
 
 li {
   list-style: none;
-  margin: 0;
+  margin: 0px;
   color: #7c7c7c;
   font-family: "Montserrat";
 }
 
 ul {
-  margin: 0;
+  margin: 10px;
   padding: 0;
+}
+
+small {
+  font-family: "Montserrat";
+  font-size: 10px;
+  color: #777777;
+}
+
+.author {
+  text-decoration: none;
+  color: #777777;
+  font-family: "Montserrat";
+  font-size: 10px;
 }
 
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #fcf3ea;
+  border: 1px solid #c9c9c9;
   border-radius: 5px;
-  background-color: #fcf3ea;
+  background-color: #ffffff;
+  opacity: 80%;
 }
 
 .wraper {
   max-width: 600px;
   margin: 30px auto;
+}
+
+.icon {
+  height: 60%;
+  width: 60%;
+  margin-left: -10px;
+  position: relative;
+  top: -5px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 64px;
+  width: 64px;
+  float: left;
+}
+
+.weather-temperature strong {
+  color: #4f514a;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 64px;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
 }
