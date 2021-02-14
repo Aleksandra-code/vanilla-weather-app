@@ -15,9 +15,13 @@ h1 {
 
 li {
   list-style: none;
+  font-size: 14px;
   margin: 0px;
   color: #7c7c7c;
   font-family: "Montserrat";
+}
+
+li::first-letter {
   text-transform: capitalize;
 }
 
