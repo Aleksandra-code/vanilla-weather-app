@@ -1,8 +1,6 @@
 body {
-  background-image: url("../media/background-shadow.jpg");
-  background-size: 110%;
-  background-position-y: center;
-  background-repeat: no-repeat;
+  background-image: url("../media/background-shadowcut.jpg");
+  background-size: cover;
 }
 
 h1 {
