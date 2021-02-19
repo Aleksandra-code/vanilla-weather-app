@@ -30,7 +30,7 @@ ul {
 
 small {
   font-family: "Montserrat";
-  font-size: 10px;
+  font-size: 12px;
   color: #777777;
 }
 
@@ -38,7 +38,7 @@ small {
   text-decoration: none;
   color: #777777;
   font-family: "Montserrat";
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .weather-app {
@@ -83,4 +83,13 @@ small {
   position: relative;
   font-size: 16px;
   top: -32px;
+}
+
+.weather-temperature .active {
+  color: #4f514a;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
