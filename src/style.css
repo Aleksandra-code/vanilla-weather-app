@@ -1,6 +1,7 @@
 body {
   background-image: url("../media/background-shadowcut.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -34,13 +35,6 @@ small {
   color: #777777;
 }
 
-.author {
-  text-decoration: none;
-  color: #777777;
-  font-family: "Montserrat";
-  font-size: 12px;
-}
-
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
@@ -48,12 +42,17 @@ small {
   border: 1px solid #c9c9c9;
   border-radius: 5px;
   background-color: #ffffff;
-  opacity: 80%;
 }
 
 .wraper {
   max-width: 600px;
   margin: 30px auto;
+}
+
+.author {
+  color: #777777;
+  font-family: "Montserrat";
+  font-size: 12px;
 }
 
 .icon {
@@ -64,6 +63,10 @@ small {
   top: -5px;
 }
 
+#search-form {
+  color: #777777;
+  font-family: "Montserrat";
+}
 .weather-temperature img {
   margin-right: 10px;
   margin-bottom: 10px;
@@ -92,4 +95,34 @@ small {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.forecast-container img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}
+
+.forecast-container p {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #777777;
+  font-family: "Montserrat";
+  font-size: 12px;
+  text-align: center;
+  height: 5px;
+}
+
+.forecast-temp {
+  text-decoration: none;
+  color: #777777;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+  margin-bottom: 15px;
 }
