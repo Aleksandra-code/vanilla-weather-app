@@ -1,7 +1,6 @@
 body {
   background-image: url("../media/background-shadowcut.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 h1 {
@@ -32,7 +31,7 @@ ul {
 small {
   font-family: "Montserrat";
   font-size: 12px;
-  color: #777777;
+  color: #4e514a;
 }
 
 .weather-app {
@@ -50,23 +49,25 @@ small {
 }
 
 .author {
-  color: #777777;
   font-family: "Montserrat";
   font-size: 12px;
+  text-decoration: none;
 }
 
 .icon {
   height: 60%;
   width: 60%;
-  margin-left: -10px;
   position: relative;
-  top: -5px;
+  margin-left: -5px;
+  top: -3px;
 }
 
 #search-form {
   color: #777777;
   font-family: "Montserrat";
+  position: relative;
 }
+
 .weather-temperature img {
   margin-right: 10px;
   margin-bottom: 10px;
